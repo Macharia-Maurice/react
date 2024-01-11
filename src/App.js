@@ -4,6 +4,7 @@ import { Main } from './components/Main';
 import { Sidebar } from './components/Sidebar';
 import avatar from './avatar.png';
 import { Logo } from './components/Logo';
+import { Btn } from './components/Btn';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Sidebar greetings="Hi" />
     </div>
     <Logo image={avatar}/>
+    <Btn message="Good to see you" />
 
   </div>
    );
