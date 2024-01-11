@@ -1,15 +1,18 @@
 import './App.css';
-import {Header} from './components/Header';
+import { Header } from './components/Header';
 import { Main } from './components/Main';
 import { Sidebar } from './components/Sidebar';
 
 
 function App() {
   return (
-  <div>
-    <Header name="Anna" color="purple" />
+  <div className='App'>
+    <Header name="Maurice" color="purple" />
+    <div className='content'>
     <Main greetings="Hello"/>
     <Sidebar greetings="Hi" />
+    </div>
+
   </div>
    );
 }

@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main{
+  background: lightgoldenrodyellow;
+  background-size: cover;
+  height: 100vh;
+  width: calc(70% -10px);
+}
+.sidebar{
+  background: azure;
+  background-size: cover;
+  height: 100vh;
+  width: calc(30% -10px);
+  margin-left: 10px;
+}
+
+.header{
+  background: lightcoral;
+  height: 20vh;
+  width: 100%;
+  margin-top: 0;
+}
