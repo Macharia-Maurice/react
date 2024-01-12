@@ -5,6 +5,7 @@ import { Sidebar } from './components/Sidebar';
 import avatar from './avatar.png';
 import { Logo } from './components/Logo';
 import { Btn } from './components/Btn';
+import ModeToggler from './components/ModeToggler';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     </div>
     <Logo image={avatar}/>
     <Btn message="Good to see you" />
+    <ModeToggler/>
 
   </div>
    );
