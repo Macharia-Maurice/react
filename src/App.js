@@ -1,22 +1,24 @@
 import './App.css';
-import { Header } from './components/Header';
-import { Main } from './components/Main';
-import { Sidebar } from './components/Sidebar';
 import avatar from './avatar.png';
-import { Logo } from './components/Logo';
 import { Btn } from './components/Btn';
+import { Header } from './components/Header';
+import Hello from './components/Hello';
+import { Logo } from './components/Logo';
+import { Main } from './components/Main';
 import ModeToggler from './components/ModeToggler';
+import { Sidebar } from './components/Sidebar';
 
 function App() {
   return (
   <div className='App'>
+    <Hello/>
     <Header name="Maurice" color="purple" />
     <div className='content'>
     <Main greetings="Hello"/>
     <Sidebar greetings="Hi" />
     </div>
     <Logo image={avatar}/>
-    <Btn message="Good to see you" />
+    <Btn message="Good" />
     <ModeToggler/>
 
   </div>
