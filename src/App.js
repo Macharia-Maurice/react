@@ -11,7 +11,7 @@ import { Sidebar } from './components/Sidebar';
 function App() {
   return (
   <div className='App'>
-    <Hello/>
+    <Hello message="I'm back"/>
     <Header name="Maurice" color="purple" />
     <div className='content'>
     <Main greetings="Hello"/>
