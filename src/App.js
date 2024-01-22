@@ -5,7 +5,7 @@ import { Header } from './components/Header';
 import Hello from './components/Hello';
 import { Logo } from './components/Logo';
 import { Main } from './components/Main';
-import { Man } from './components/Man';
+import Man from './components/Man';
 import ModeToggler from './components/ModeToggler';
 import { Sidebar } from './components/Sidebar';
 

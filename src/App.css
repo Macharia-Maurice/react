@@ -37,4 +37,9 @@
   }
 }
 
-
+img{
+  display: block;
+  margin: auto;
+  padding: 40px;
+  border-radius:50px;
+}
