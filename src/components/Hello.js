@@ -1,8 +1,9 @@
 import React from 'react';
 
-function Hello() {
+
+function Hello(props) {
   return (
-    <div className=''>Hello !! I'm back</div>
+    <div className='App-link'>{props.message} </div>
   )
 }
 
